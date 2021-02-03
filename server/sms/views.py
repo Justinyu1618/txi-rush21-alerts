@@ -29,14 +29,14 @@ def sms_reply():
         print("User not found!")
         return "user not found!"
 
-    if body.lower().strip() == "stop":
-        user.active = False 
-        db.session.commit()
-        resp.message("Reminders stopped!")
-        return "None"
-    else:
-        print("unrecognized message!")
-        return "unrecognized message!"
+    # if body.lower().strip() == "stop":
+    #     user.active = False 
+    #     db.session.commit()
+    #     resp.message("Reminders stopped!")
+    #     return "None"
+    # else:
+    #     print("unrecognized message!")
+    #     return "unrecognized message!"
     return str(resp)
 
 
