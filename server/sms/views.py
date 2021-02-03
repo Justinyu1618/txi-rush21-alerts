@@ -11,7 +11,7 @@ from twilio.twiml.messaging_response import MessagingResponse
 
 sms_bp = Blueprint("sms", __name__)
 
-@sms_bp.route("/reply", methods=['GET', 'POST'])
+@sms_bp.route("/reply", methods=['POST'])
 def sms_reply():
     """Respond to incoming messages with a friendly SMS."""
     # Start our response
@@ -21,7 +21,7 @@ def sms_reply():
     body = request.values.get('Body', None)
     number = request.values.get('From', None)
     print(body, number)
-    user = Users.query.filter_by(phone_number=number).first()
+    user = Users.query.filter(Users.phone_number in number).first()
     if user is None:
         print("User not found!")
         return "user not found!"
