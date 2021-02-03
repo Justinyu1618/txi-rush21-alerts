@@ -1,7 +1,7 @@
 rushEvents = [
 {
-    "start": "2021-02-06T17:00:00",
-    "end":   "2021-02-06T19:00:00",
+    "start": "2021-02-03T17:30:00",
+    "end":   "2021-02-03T19:00:00",
     "name": "League of Legends",
     "description": "Come chill and play League with the Theta Xi bros for a chance to win 2000 RP!",
     "zoom": "https://mit.zoom.us/j/98095335425",
@@ -9,8 +9,8 @@ rushEvents = [
     "prize": "2000 RP"
 },
 {
-    "start": "2021-02-06T19:00:00",
-    "end":   "2021-02-06T20:00:00",
+    "start": "2021-02-03T17:20:00",
+    "end":   "2021-02-03T20:00:00",
     "name": "Song Guesser",
     "description": "Are you good at instantly recognizing songs on the radio, or LoVe LiSteNinG to MUsIC, come hangout with the Theta Xi bros for a friendly song guessing competition, and for a chance to win an Airpod Pro or a Beats Speaker!",
     "zoom": "https://mit.zoom.us/j/98095335425",
@@ -18,8 +18,8 @@ rushEvents = [
     "prize": "Airpods + Beats Speaker"
 },
 {
-    "start": "2021-02-06T20:00:00",
-    "end":   "2021-02-06T21:00:00",
+    "start": "2021-02-03T17:10:00",
+    "end":   "2021-02-03T17:40:00",
     "name": "Fermi Questions",
     "description": "How many piano teachers are there in New York? How many bananas are produced per year in South Africa? Come to Theta Xi's Fermi Bowl to sharpen your mind and meet some interesting people! Winner will take home a 100$ Amazon Gift Card ;)",
     "zoom": "https://mit.zoom.us/j/98095335425",
@@ -27,8 +27,8 @@ rushEvents = [
     "prize": "$100 Amazon Gift Card"
 },
 {
-    "start": "2021-02-06T21:00:00",
-    "end":   "2021-02-06T23:00:00",
+    "start": "2021-02-03T17:40:00",
+    "end":   "2021-02-03T23:00:00",
     "name": "Poker Night",
     "description": "Join us for some fun poker with the Theta Xi Bros and a chance to meet your new poker buddies! May the odds and pocket aces be in your favor, as you'll have a chance to win some big and expensive prizes like Nintendo Switch, drones and Apple Watch!",
     "zoom": "https://mit.zoom.us/j/98095335425",
@@ -36,8 +36,8 @@ rushEvents = [
     "prize": "Misc. Prizes"
 },
 {
-    "start": "2021-02-07T17:00:00",
-    "end":   "2021-02-07T19:00:00",
+    "start": "2021-02-03T17:50:00",
+    "end":   "2021-02-03T19:00:00",
     "name": "League of Legends",
     "description": "Come chill and play League with the Theta Xi bros for a chance to win 2000 RP!",
     "zoom": "https://mit.zoom.us/j/98095335425",
@@ -45,8 +45,8 @@ rushEvents = [
     "prize": "2000 RP"
 },
 {
-    "start": "2021-02-07T19:00:00",
-    "end":   "2021-02-07T21:00:00",
+    "start": "2021-02-03T19:00:00",
+    "end":   "2021-02-03T21:00:00",
     "name": "Geoguessr",
     "description": "POV: You're plopped in the middle of the world. Just like you in the middle of the semester, it will take all your will power to figure out where the heck in the world you are. Swing by for a geo-tastic time and who knows, you might even take home a one way flight ticket to anywhere in the US ;)",
     "zoom": "https://mit.zoom.us/j/98095335425",
@@ -54,8 +54,8 @@ rushEvents = [
     "prize": "Flight ticket"
 },
 {
-    "start": "2021-02-07T21:00:00",
-    "end":   "2021-02-07T23:00:00",
+    "start": "2021-02-03T21:00:00",
+    "end":   "2021-02-03T23:00:00",
     "name": "Game Night",
     "description": "Among Us, Drawphone, Jackbox, Generals.io, Avalon, here at Theta Xi we're BIG into online games. There will be laughter, goofyness, and most importantly, the love for the brotherhood. Be there or be 🔲",
     "zoom": "https://mit.zoom.us/j/98095335425",
