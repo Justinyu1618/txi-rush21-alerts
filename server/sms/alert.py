@@ -3,8 +3,16 @@ from server import app, db, twilio_client
 from datetime import datetime, timedelta
 from server.sms.msg_templates import *
 from server.sms.events import rushEvents
+from pytz import timezone
 
 #TODO: Option for neighboring counties
+
+def eastern_now():
+    now_utc = datetime.now(timezone('UTC'))
+    return now_utc.astimezone(timezone("US/Eastern"))
+
+def naive_to_eastern(naive):
+    return timezone("US/Eastern").localize(naive)
 
 def send_starter(user):
     msg = STARTER
@@ -26,16 +34,17 @@ def send_msg(user, msg, update_stats=True):
 
 STR_FMT = "%Y-%m-%dT%H:%M:%S"
 def run_alerts():
-    now = datetime.now()
+    now = eastern_now()
     upcomingEvent = None
     for event in rushEvents:
-        start = datetime.strptime(event["start"], STR_FMT)
+        start = naive_to_eastern(datetime.strptime(event["start"], STR_FMT))
+        print(now, start)
         if(start > now and (now + timedelta(minutes=21) > start)):
             upcomingEvent = event
             break
     if(upcomingEvent):
         msg = build_msg(upcomingEvent)
-        all_users = Users.query.filter_by(active=True).all()
+        all_users = Users.query.all()
         try:
             for user in all_users:
                 send_msg(user, msg)
