@@ -62,7 +62,7 @@ rushEvents = [
     "img": "amongus.jpg"
 },
 {
-    "start": "2021-02-03T19:20:00",
+    "start": "2021-02-03T19:10:00",
     "end":   "2021-02-08T18:00:00",
     "name": "Quant Interview Questions",
     "description": "Come join us for some #business casual quant interview questions with Theta Xi brothers who's gotten into Jane Street, Optiver and more! This is one interview you won't want to miss out on: winners will get some big prizes and a referal for Jane Street next cycle ;)",
@@ -71,7 +71,7 @@ rushEvents = [
     "prize": "Jane Street / Optiver Referal"
 },
 {
-    "start": "2021-02-08T18:00:00",
+    "start": "2021-02-03T19:30:00",
     "end":   "2021-02-08T19:00:00",
     "name": "Resume Workshop",
     "description": "Come chat with our career fair veterans about how to improve your resume and set yourself up for success for the future!",
@@ -79,7 +79,7 @@ rushEvents = [
     "img": "resume.png"
 },
 {
-    "start": "2021-02-08T19:00:00",
+    "start": "2021-02-03T19:50:00",
     "end":   "2021-02-08T21:00:00",
     "name": "Poker Night",
     "description": "Join us for some fun poker with the Theta Xi Bros and a chance to meet your new poker buddies! May the odds and pocket aces be in your favor, as you'll have a chance to win some big and expensive prizes like Nintendo Switch, drones and Apple Watch!",

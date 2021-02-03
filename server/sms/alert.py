@@ -39,7 +39,7 @@ def run_alerts():
     for event in rushEvents:
         start = naive_to_eastern(datetime.strptime(event["start"], STR_FMT))
         print(now, start)
-        if(start > now and (now + timedelta(minutes=21) > start)):
+        if(start > now and (now + timedelta(minutes=21) > start) and (now + timedelta(minutes=10) < start)):
             upcomingEvent = event
             break
     if(upcomingEvent):
