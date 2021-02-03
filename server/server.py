@@ -18,9 +18,9 @@ def add_user():
     if(not existing):
         new_user = Users()
         new_user.populate({},phone_number=number)
+        send_starter(new_user)
         db.session.add(new_user)
         db.session.commit()
-        send_starter(new_user)
     elif(not existing.active):
         send_starter(existing)
 

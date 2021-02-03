@@ -15,12 +15,13 @@ sms_bp = Blueprint("sms", __name__)
 def sms_reply():
     """Respond to incoming messages with a friendly SMS."""
     # Start our response
+    print("AHHHH", request.method)
     resp = MessagingResponse()
 
     body = request.values.get('Body', None)
     number = request.values.get('From', None)
     print(body, number)
-    user = User.query.filter_by(phone_number=number).first()
+    user = Users.query.filter_by(phone_number=number).first()
     if user is None:
         print("User not found!")
         return "user not found!"

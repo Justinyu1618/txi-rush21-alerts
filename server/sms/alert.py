@@ -8,7 +8,8 @@ from server.sms.msg_templates import *
 def send_starter(user):
     msg = STARTER
     send_msg(user, msg)
-    print(f"Sent STARTER. User: {user.phone_number}, ID: {message.sid}")
+    print(f"Sent STARTER. User: {user.phone_number}")
+    
 def build_msg(event):
     msg = REMINDER % (event["title"], event["zoom"])
     return msg

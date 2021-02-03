@@ -30,7 +30,7 @@ def load_blueprints():
     from server.sms.views import sms_bp
     from server.server import server_bp 
     app.register_blueprint(server_bp, url_prefix="/")
-    app.register_blueprint(server_bp, url_prefix="/sms")
+    app.register_blueprint(sms_bp, url_prefix="/sms")
 
 
 def setup_default_routes():
@@ -39,7 +39,7 @@ def setup_default_routes():
     """
     @app.errorhandler(404)
     def default(error):
-        return redirect("https://theta-xi.mit.edu")
+        return redirect("https://www.google.com/") #"https://theta-xi.mit.edu")
 
 
 # def setup_debug():
