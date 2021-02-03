@@ -18,7 +18,11 @@ def add_user():
     if(not existing):
         new_user = Users()
         new_user.populate({},phone_number=number)
-        send_starter(new_user)
+        try:
+            send_starter(new_user)
+        except Exception as e:
+            print("INVALID PHONE NUMBER")
+            return "INVALID NUMBER", 400
         db.session.add(new_user)
         db.session.commit()
     elif(not existing.active):

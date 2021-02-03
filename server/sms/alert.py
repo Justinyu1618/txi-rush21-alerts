@@ -2,6 +2,7 @@ from server.models import Users
 from server import app, db, twilio_client
 from datetime import datetime, timedelta
 from server.sms.msg_templates import *
+from server.sms.events import rushEvents
 
 #TODO: Option for neighboring counties
 
@@ -9,9 +10,9 @@ def send_starter(user):
     msg = STARTER
     send_msg(user, msg)
     print(f"Sent STARTER. User: {user.phone_number}")
-    
+
 def build_msg(event):
-    msg = REMINDER % (event["title"], event["zoom"])
+    msg = REMINDER % (event["name"], event["zoom"])
     return msg
 
 def send_msg(user, msg, update_stats=True):
@@ -23,7 +24,7 @@ def send_msg(user, msg, update_stats=True):
                      )
     print(f"Sent REMINDER. User: {user.phone_number}, ID: {message.sid}")
 
-STR_FMT = "%Y-%m-%dT%H:%M"
+STR_FMT = "%Y-%m-%dT%H:%M:%S"
 def run_alerts():
     now = datetime.now()
     upcomingEvent = None

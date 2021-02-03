@@ -29,7 +29,7 @@ def sms_reply():
         print("User not found!")
         return "user not found!"
 
-    if body.lower().strip() == "STOP":
+    if body.lower().strip() == "stop":
         user.active = False 
         db.session.commit()
         resp.message("Reminders stopped!")
