@@ -45,7 +45,7 @@ rushEvents = [
     "prize": "2000 RP"
 },
 {
-    "start": "2021-02-03T19:00:00",
+    "start": "2021-02-03T18:20:00",
     "end":   "2021-02-03T21:00:00",
     "name": "Geoguessr",
     "description": "POV: You're plopped in the middle of the world. Just like you in the middle of the semester, it will take all your will power to figure out where the heck in the world you are. Swing by for a geo-tastic time and who knows, you might even take home a one way flight ticket to anywhere in the US ;)",
@@ -54,7 +54,7 @@ rushEvents = [
     "prize": "Flight ticket"
 },
 {
-    "start": "2021-02-03T21:00:00",
+    "start": "2021-02-03T18:50:00",
     "end":   "2021-02-03T23:00:00",
     "name": "Game Night",
     "description": "Among Us, Drawphone, Jackbox, Generals.io, Avalon, here at Theta Xi we're BIG into online games. There will be laughter, goofyness, and most importantly, the love for the brotherhood. Be there or be 🔲",
@@ -62,7 +62,7 @@ rushEvents = [
     "img": "amongus.jpg"
 },
 {
-    "start": "2021-02-08T17:00:00",
+    "start": "2021-02-03T19:20:00",
     "end":   "2021-02-08T18:00:00",
     "name": "Quant Interview Questions",
     "description": "Come join us for some #business casual quant interview questions with Theta Xi brothers who's gotten into Jane Street, Optiver and more! This is one interview you won't want to miss out on: winners will get some big prizes and a referal for Jane Street next cycle ;)",
@@ -220,7 +220,7 @@ rushEvents = [
     "name": "Pickup Lines",
     "description": "I'm no photographer but i can really picture us together...Really into pickup lines or want to hear more? Swing by for an ICONIC event with the Theta Xi bros; winners will be awarded with an one-year tinder gold subscription ;)",
     "zoom": "https://mit.zoom.us/j/98095335425",
-    "img": "kresge.jpg",
+    "img": "pickup.jpg",
     "prize": "Tinder Gold subscription"
 },
 {
@@ -286,7 +286,7 @@ rushEvents = [
     "name": "Pickup Line Tournament",
     "description": "I'm no photographer but i can really picture us together...Really into pickup lines or want to hear more? Swing by for an ICONIC event with the Theta Xi bros; winners will be awarded with an one-year tinder gold subscription ;)",
     "zoom": "https://mit.zoom.us/j/98095335425",
-    "img": "kresge.jpg",
+    "img": "pickup.jpg",
     "prize": "Tinder Gold"
 },
 {
