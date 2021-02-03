@@ -25,7 +25,7 @@ def add_user():
             return "INVALID NUMBER", 400
         db.session.add(new_user)
         db.session.commit()
-    elif(not existing.active):
+    else:
         send_starter(existing)
 
     return "success", 200
