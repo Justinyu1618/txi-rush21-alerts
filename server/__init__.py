@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect
 # from flask_jwt_extended import JWTManager
 from flask_sqlalchemy import SQLAlchemy
 from twilio.rest import Client
@@ -39,7 +39,7 @@ def setup_default_routes():
     """
     @app.errorhandler(404)
     def default(error):
-        return render_template("index.html")
+        return redirect("https://theta-xi.mit.edu")
 
 
 # def setup_debug():
