@@ -94,6 +94,7 @@ def create_app():
     # Set up Twilio
     twilio_client = Client(app.config["TWILIO_SID"], app.config["TWILIO_AUTH_TOKEN"])
 
+    CORS(app)
 
 
     # Setup routes and bps
