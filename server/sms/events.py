@@ -88,7 +88,7 @@ rushEvents = [
     "prize": "Misc. Prizes"
 },
 {
-    "start": "2021-02-03T22:30:00",
+    "start": "2021-02-03T22:40:00",
     "end":   "2021-02-08T23:00:00",
     "name": "Studio Ghibli Movie Marathon",
     "description": "Come join the Theta Xi bros for a journey into the fantasy world of Studio Ghibli with witches, flying castles and dragons. And if you don't know what we're talking about-- well, you're in it for a treat + Ubereats :))",
@@ -96,7 +96,7 @@ rushEvents = [
     "img": "ghibli.jpg"
 },
 {
-    "start": "2021-02-03T22:50:00",
+    "start": "2021-02-03T23:00:00",
     "end":   "2021-02-03T19:00:00",
     "name": "Geoguessr",
     "description": "POV: You're plopped in the middle of the world. Just like you in the middle of the semester, it will take all your will power to figure out where the heck in the world you are. Swing by for a geo-tastic time and who knows, you might even take home a one way flight ticket to anywhere in the US ;)",
@@ -104,7 +104,7 @@ rushEvents = [
     "img": "geoguessr.jpg"
 },
 {
-    "start": "2021-02-03T23:10:00",
+    "start": "2021-02-03T23:20:00",
     "end":   "2021-02-03T21:00:00",
     "name": "Game Night",
     "description": "Among Us, Drawphone, Jackbox, Generals.io, Avalon, here at Theta Xi we're BIG into online games. There will be laughter, goofyness, and most importantly, the love for the brotherhood. Be there or be 🔲",
@@ -112,7 +112,7 @@ rushEvents = [
     "img": "amongus.jpg"
 },
 {
-    "start": "2021-02-03T23:30:00",
+    "start": "2021-02-03T23:40:00",
     "end":   "2021-02-03T23:00:00",
     "name": "League of Legends",
     "description": "Come chill and play League with the Theta Xi bros for a chance to win 2000 RP!",
@@ -121,8 +121,8 @@ rushEvents = [
     "prize": "2000 RP"
 },
 {
-    "start": "2021-02-03T23:50:00",
-    "end":   "2021-02-03T18:00:00",
+    "start": "2021-02-04T00:00:00",
+    "end":   "2021-02-04T18:00:00",
     "name": "Quant Interview Questions",
     "description": "Come join us for some #business casual quant interview questions with Theta Xi brothers who's gotten into Jane Street, Optiver and more! This is one interview you won't want to miss out on: winners will get some big prizes and a referal for Jane Street next cycle ;)",
     "zoom": "https://mit.zoom.us/j/98095335425",
@@ -130,7 +130,7 @@ rushEvents = [
     "prize": "Jane Street / Optiver Referal"
 },
 {
-    "start": "2021-02-04T00:10:00",
+    "start": "2021-02-04T00:20:00",
     "end":   "2021-02-04T19:00:00",
     "name": "Coding Bee",
     "description": "You might be a capable programer on computer; but can you SPELL your code without making any mistakes? Come join us for the Theta Xi Coding Bee Challenge, where your coding abilites will be tested to the max. Big prizes will be awarded for the winners woot!",
@@ -139,7 +139,7 @@ rushEvents = [
     "prize": "Misc. Prizes"
 },
 {
-    "start": "2021-02-04T00:30:00",
+    "start": "2021-02-04T00:40:00",
     "end":   "2021-02-04T21:00:00",
     "name": "Poker Night",
     "description": "Join us for some fun poker with the Theta Xi Bros and a chance to meet your new poker buddies! May the odds and pocket aces be in your favor, as you'll have a chance to win some big and expensive prizes like Nintendo Switch, drones and Apple Watch!",
