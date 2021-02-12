@@ -184,7 +184,7 @@ rushEvents = [
     "end":   "2021-02-12T18:00:00",
     "name": "Song Guesser",
     "description": "Are you good at instantly recognizing songs on the radio, or LoVe LiSteNinG to MUsIC? Come hangout with the Theta Xi bros for a friendly song guessing competition, and for a chance to win an Airpod Pro or a Beats Speaker!",
-    "zoom": "https://mit.zoom.us/j/95764294003",
+    "zoom": "https://mit.zoom.us/j/7408042887",
     "img": "airpods.jpg",
     "prize": "Airpods + Beat Speaker"
 },
@@ -193,7 +193,7 @@ rushEvents = [
     "end":   "2021-02-12T19:00:00",
     "name": "Origami",
     "description": "Reminsce the good ol' days of middle school and make some gr10 origami with the Theta Xi bros. Fortune tellers, ninja stars, paper cranes, and more!",
-    "zoom": "https://mit.zoom.us/j/98095335425",
+    "zoom": "https://mit.zoom.us/j/7408042887",
     "img": "origami.jpg"
 },
 {
@@ -201,16 +201,16 @@ rushEvents = [
     "end":   "2021-02-12T21:00:00",
     "name": "Chess Tournament",
     "description": "Have you already binge watched all of Queen's Gambit and been craving more CHESS? Look no further as you'll have a chance to play a TXi brother that can get Beth Harmon a run for her money? Let's just say, you beat him in bullet chess, you'll be in for a chance to win an one-year master class subscription :)))",
-    "zoom": "https://mit.zoom.us/j/95764294003",
+    "zoom": "https://mit.zoom.us/j/7408042887",
     "img": "chess.jpg",
     "prize": "1 Year Masterclass"
 },
 {
     "start": "2021-02-12T21:00:00",
     "end":   "2021-02-12T23:00:00",
-    "name": "Speed Dating",
+    "name": "Brother Speed Dating",
     "description": "Love will be in the air for this event – have a friend that needs to be cuffed, or you yourself looking for someone, RSVP for the most iconic rush event of the year <3 Most imporantly, you'll get the chance to talk to (AND TAKE HOME *socially distanced) a really cute girl (no experience required) ;)",
-    "zoom": "https://mit.zoom.us/j/98095335425",
+    "zoom": "https://mit.zoom.us/j/7408042887",
     "img": "dating.jpg",
     "prize": "A date ;)"
 },
