@@ -224,16 +224,16 @@ rushEvents = [
     "prize": "Tinder Gold subscription"
 },
 {
-    "start": "2021-02-15T19:00:00",
-    "end":   "2021-02-15T20:00:00",
+    "start": "2021-02-15T19:30:00",
+    "end":   "2021-02-15T20:30:00",
     "name": "True Confessions",
     "description": "It's simple: one truth, one lie, two crazy stories. Instead of Jimmy Fallon, you'll have to settle for the Theta Xi bros, but we promise you won't regret coming to this event – we got some quality stories lined up. We just need some hype rushees ready to hear them.",
     "zoom": "https://mit.zoom.us/j/98095335425",
     "img": "confessions.png"
 },
 {
-    "start": "2021-02-15T20:00:00",
-    "end":   "2021-02-15T22:00:00",
+    "start": "2021-02-15T20:30:00",
+    "end":   "2021-02-15T22:30:00",
     "name": "Poker Night",
     "description": "Join us for some fun poker with the Theta Xi Bros and a chance to meet your new poker buddies! May the odds and pocket aces be in your favor, as you'll have a chance to win some big and expensive prizes like a Nintendo Switch, drones and an Apple Watch!",
     "zoom": "https://mit.zoom.us/j/95764294003",
